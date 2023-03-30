@@ -6,7 +6,7 @@ using UnityEngine;
 public class DisplayTextWithButton : MonoBehaviour
 {
     [SerializeField] private KeyCode theKey;
-    [SerializeField] private TextMeshPro text;
+    [SerializeField] private TMP_Text text;
     
     // Start is called before the first frame update
     void Start()
